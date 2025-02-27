@@ -1,6 +1,6 @@
 # RustDesk
 
-Free and Open-Source Remote Desktop Solution
+Free and Open-Source Remote Desktop Software
 
 ## Resources
 
@@ -19,9 +19,13 @@ Free and Open-Source Remote Desktop Solution
 ## The issue with Microsft Remote Desktop solution
 
 The computer we use to remote into another computer can be Windows Home, but the computer you're remoting into has to run Windows Pro.  
-Microsoft native RDP software is fairly limited, it doesn't allow us to remote access a computer from anywhere.  
+Microsoft native RDP software is fairly limited, it doesn't allow to remote access a computer from anywhere, only from the same network.  
+
+---
+
+# RustDesk vs TeamViewer
 
 
   
 
-@2/22
+@6/22
