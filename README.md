@@ -18,8 +18,7 @@ Free and Open-Source Remote Desktop Software
 
 ## The issue with Microsft Remote Desktop solution
 
-The computer we use to remote into another computer can be Windows Home, but the computer you're remoting into has to run Windows Pro.  
-Microsoft native RDP software is fairly limited, it doesn't allow to remote access a computer from anywhere, only from the same network.  
+The computer we use to remote into another computer can be Windows Home, but the computer you're remoting into has to run Windows Pro.    
 
 ## Why not use TeamViewer or Anydesk?
 
@@ -35,24 +34,42 @@ RustDesk also has paid options, but we don't need them.
 
 ## RustDesk client
 
-### Local network access (no server)
-
-For remoting machines that are on the same network, they can be accessed via their IP address.  
-
-To configure that:
-- install the Rustdesk client on every machine
-- start the client and click on the 3 dots next to your machine's Rustdesk ID
-- click on Security
-  - unlock security settings > enable direct IP access > port 21118 (default value)
-  - set a permanent password
+Experience is similar to Teamviewer or Anydesk but free and open-source (FOSS).
 
 ## RustDesk Server (with Docker)
 
-For remoting machines across different networks, your server can be installed on a VPS (in the Cloud) or locally (on premises).  
+Your server can be installed on a VPS (in the Cloud) or locally (on premises).  
 
-Using a VPS (virtual private server) is the best option, because your server is reachable by allowed users all around the world:
+Let's say we go with VPS:
 - choose a VPS provider (Linode, Hostinger, Cloudways, Ionos, DigitalOcean)
 - set up a new server: a small instance running Ubuntu 24.04 will do
 
+Official RustDesk documentation: https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/install/  
+_"You need to have Linux installed, script is tested working with CentOS Linux 7/8, Ubuntu 18/20/22/24, and Debian.  
+A server with 1 CPU, 1 GB RAM, and 10 GB disk is plenty to run RustDesk."_
 
-@13/22
+### SSH configuration
+
+So, once we have our VPS set up:
+- open a terminal on your local workstation (if it's not a Linux machine, just use WSL2)
+- `cd` into your .ssh folder
+- generate an SSH key pair: `ssh-keygen -t ed25519`
+- display the public key with `cat id_ed25519.pub` 
+- Select all of the displayed content, and copy it
+- paste the key where needed so it's added to your VPS config
+- grab the IP address of your VPS
+- open a terminal on your local workstation
+- ssh into your VPS: `ssh root@<VPS_IP_address>` (it will check the local SSH private key against the VPS public key)
+
+### Install Docker Engine
+
+- Once logged in to your VPS via SSH, run `sudo apt update` and `sudo apt upgrade`
+
+Before installing Docker engine on a new Ubuntu host, you need to set up the Docker `apt` repository.  
+To do that, 
+
+### Install the Rustdesk servers 
+
+
+
+@15/22
