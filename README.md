@@ -18,5 +18,10 @@ Free and Open-Source Remote Desktop Solution
 
 ## The issue with Microsft Remote Desktop solution
 
-- The computer we use to remote into another computer can be Windows Home
-- But the computer you're remoting into has to run Windows Pro
+The computer we use to remote into another computer can be Windows Home, but the computer you're remoting into has to run Windows Pro.  
+Microsoft native RDP software is fairly limited, it doesn't allow us to remote access a computer from anywhere.  
+
+
+  
+
+@2/22
