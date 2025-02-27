@@ -21,11 +21,13 @@ Free and Open-Source Remote Desktop Software
 The computer we use to remote into another computer can be Windows Home, but the computer you're remoting into has to run Windows Pro.  
 Microsoft native RDP software is fairly limited, it doesn't allow to remote access a computer from anywhere, only from the same network.  
 
----
+## Why not use TeamViewer or Anydesk?
 
-# RustDesk vs TeamViewer
+Because these solutions can't be self-hosted, you need to use their servers. Do you trust them enough for that? 
+
+
 
 
   
 
-@6/22
+@7/22
