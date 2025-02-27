@@ -33,11 +33,12 @@ RustDesk also has paid options, but we don't need them.
 
 # RustDesk
 
-## The RustDesk client
+## RustDesk client
 
-### Local access (no server)
+### Local network access (no server)
 
-For machines that are on the same network, they can be accessed via their IP address.  
+For remoting machines that are on the same network, they can be accessed via their IP address.  
+
 To configure that:
 - install the Rustdesk client on every machine
 - start the client and click on the 3 dots next to your machine's Rustdesk ID
@@ -45,5 +46,13 @@ To configure that:
   - unlock security settings > enable direct IP access > port 21118 (default value)
   - set a permanent password
 
+## RustDesk Server (with Docker)
 
-@9/22
+For remoting machines across different networks, your server can be installed on a VPS (in the Cloud) or locally (on premises).  
+
+Using a VPS (virtual private server) is the best option, because your server is reachable by allowed users all around the world:
+- choose a VPS provider (Linode, Hostinger, Cloudways, Ionos, DigitalOcean)
+- set up a new server: a small instance running Ubuntu 24.04 will do
+
+
+@13/22
