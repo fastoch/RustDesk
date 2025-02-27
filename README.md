@@ -42,6 +42,8 @@ To configure that:
 - install the Rustdesk client on every machine
 - start the client and click on the 3 dots next to your machine's Rustdesk ID
 - click on Security
+  - unlock security settings > enable direct IP access > port 21118 (default value)
+  - set a permanent password
 
 
-@8/22
+@9/22
