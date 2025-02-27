@@ -23,11 +23,25 @@ Microsoft native RDP software is fairly limited, it doesn't allow to remote acce
 
 ## Why not use TeamViewer or Anydesk?
 
-Because these solutions can't be self-hosted, you need to use their servers. Do you trust them enough for that? 
+Because these solutions can't be self-hosted, you need to use their servers. Do you trust them enough for that?   
+To be fair, Anydesk offers the possibility to have your own server, but it's a paid option.  
+
+The only free and open-source solution that can be self-hosted is **RustDesk**.  
+RustDesk also has paid options, but we don't need them.
+
+---
+
+# RustDesk
+
+## The RustDesk client
+
+### Local access (no server)
+
+For machines that are on the same network, they can be accessed via their IP address.  
+To configure that:
+- install the Rustdesk client on every machine
+- start the client and click on the 3 dots next to your machine's Rustdesk ID
+- click on Security
 
 
-
-
-  
-
-@7/22
+@8/22
