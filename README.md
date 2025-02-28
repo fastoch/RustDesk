@@ -214,5 +214,3 @@ In there, we should find the public SSH key that will allow us to log in to our 
 - click OK and you'll get a 'Successful' message once your server has been added to the client
 - of course, this operation needs to be repeated on every RustDesk client
 
-
-@19/22
