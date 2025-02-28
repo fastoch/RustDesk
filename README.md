@@ -6,7 +6,7 @@ Free and Open-Source Remote Desktop Software
 
 - NetworkChuck video: https://www.youtube.com/watch?v=EXL8mMUXs88
 - install RustDesk client: https://rustdesk.com/
-- install Docker on your private server: https://docs.docker.com/engine/install/
+- install Docker on your private RustDesk server: https://docs.docker.com/engine/install/
 - Install your own RustDesk server with Docker: https://rustdesk.com/docs/en/self-host/rustdesk-server-oss/docker/
 
 ---
