@@ -18,7 +18,7 @@ Free and Open-Source Remote Desktop Software
 
 ## The issue with Microsoft Remote Desktop solution
 
-The computer we use to remote into another computer can be Windows Home, but the computer you're remoting into has to run Windows Pro.   
+The PC we use to remote into another PC can be Windows Home, but the computer you're remoting into has to run Windows Pro.   
 Which means you need all your machines to run Windows Pro, which can be expensive.
 
 ## Why not use TeamViewer or Anydesk?
