@@ -27,7 +27,7 @@ Because these solutions can't be self-hosted, you need to use their servers. Do 
 To be fair, Anydesk offers the possibility to have your own server, but it's a paid option.  
 
 The only free and open-source solution that can be self-hosted is **RustDesk**.  
-RustDesk also has paid options, but we don't need them.
+RustDesk also has paid plans, but we really don't need them, it's only there to show support.
 
 ---
 
